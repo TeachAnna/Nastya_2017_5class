@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>name</title>
+	<link rel="stylesheet" href="style.css">
+	<script>
+		function hi() {
+			var login = f.login.value;
+			document.getElementById('rez').innerHTML="Привет, " +login;
+		}
+	</script>
+</head>
+<body>
+	<h1>name</h1>
+	<form name="f">
+		<p>enter your name: </p>
+		<input id="login">
+		<input value="отправить" type="button" onclick='hi()'>
+		<p id="rez"></p>
+	</form>
+</body>
+</html>
